@@ -147,6 +147,7 @@ microservice deployments from each other.
 ## Authentication
 
 Istio provides two types of authentication:
+
 *   Transport authentication (also known as service-to-service authentication): verifies the direct client that makes the connection. Istio offers
 mutual TLS (mTLS) as a full stack solution for transport authentication. Customer can easily turn on this feature without requiring
 service code changes. The solution includes:
